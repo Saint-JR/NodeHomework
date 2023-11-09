@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form
+            id="form"
+            action="http://localhost:3000/list"
+            method="post"
+            target="nm_iframe"
+        >
+            <label
+                >Please input: <input type="text" id="input-text" name="text"
+            /></label>
+            <button id="submit-data" type="submit">Submit</button>
+        </form>
+
+        <iframe id="id_iframe" name="nm_iframe" style="display: none"></iframe>
+    </body>
+</html>
